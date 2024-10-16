@@ -1,6 +1,6 @@
 {
   "name": "@dvgis/dc-common",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "repository": "git@github.com:dvgis/dc-common.git",
   "author": "cavencj <cavencj@gmail.com>",
   "license": "MIT",
