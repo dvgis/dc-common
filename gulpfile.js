@@ -28,8 +28,8 @@ async function buildNamespace(options) {
     ...buildConfig,
     entryPoints: ['src/index.js'],
     format: options.node ? 'esm' : 'iife',
-    globalName: 'DC.__namespace',
-    outfile: path.join('dist', options.node ? 'index.js' : '__namespace.js'),
+    globalName: 'DC_Common',
+    outfile: path.join('dist', options.node ? 'index.js' : 'dc.common.min.js'),
   })
 }
 
