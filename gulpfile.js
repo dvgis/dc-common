@@ -29,6 +29,9 @@ async function buildNamespace(options) {
     entryPoints: ['src/index.js'],
     format: options.node ? 'esm' : 'iife',
     globalName: 'DC_Common',
+    external: options.node
+      ? [...buildConfig.external, '@cesium/engine']
+      : [...buildConfig.external],
     outfile: path.join('dist', options.node ? 'index.js' : 'dc.common.min.js'),
   })
 }

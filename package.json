@@ -1,6 +1,6 @@
 {
   "name": "@dvgis/dc-common",
-  "version": "4.0.0",
+  "version": "4.0.2",
   "repository": "git@github.com:dvgis/dc-common.git",
   "author": "cavencj <cavencj@gmail.com>",
   "license": "MIT",
@@ -19,7 +19,6 @@
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-transform-runtime": "^7.21.4",
     "@babel/preset-env": "^7.21.5",
-    "@cesium/engine": "^12.0.0",
     "esbuild": "^0.20.1",
     "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
@@ -34,5 +33,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@cesium/engine": "^12.0.0"
+  }
 }
