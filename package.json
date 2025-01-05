@@ -1,6 +1,6 @@
 {
   "name": "@dvgis/dc-common",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "repository": "git@github.com:dvgis/dc-common.git",
   "author": "cavencj <cavencj@gmail.com>",
   "license": "MIT",
@@ -35,6 +35,6 @@
     "dist"
   ],
   "dependencies": {
-    "@cesium/engine": "^13.0.0"
+    "@cesium/engine": "^13.1.0"
   }
 }
